@@ -16,7 +16,7 @@ export default function Home() {
   const [vocabList, setVocabList] = useState([]);
   // 是否在等待回應
   const [isWaiting, setIsWaiting] = useState(false);
-  const languageList = ["English", "Japanese", "Korean", "Spanish", "French", "German", "Italian"];
+  const languageList = ["English", "Japanese", "Korean", "Spanish", "French", "German", "Italian","Vietnam"];
   //useEffect(函式，陣列)
   //陣列內的值有變化時，就會執行函式
   //陣列如果是空陣列，就只會執行一次函式
